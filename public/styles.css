@@ -749,6 +749,14 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:w-2\/5{
+    width: 40%;
+  }
+
+  .md\:w-3\/10{
+    width: 30%;
+  }
+
   .md\:text-preset-0{
     font-size: 24px;
     line-height: 150%;
@@ -769,7 +777,21 @@ video {
 }
 
 @media (min-width: 1024px){
-  .lg\:w-21{
-    width: 21.5%;
+  .lg\:w-6\/25{
+    width: 24%;
+  }
+
+  .lg\:w-3\/10{
+    width: 30%;
+  }
+}
+
+@media (min-width: 1280px){
+  .xl\:w-3\/25{
+    width: 12%;
+  }
+
+  .xl\:w-6\/25{
+    width: 24%;
   }
 }
