@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="./public/styles.css" />
+
+    <title>Frontend Mentor | Blog preview card</title>
+  </head>
+  <body class="h-screen bg-yellow flex items-center justify-center font-body">
+    <!-- Card -->
+    <article
+      class="group rounded-20 p-6 m-6 md:w-1/2 lg:w-1/3 bg-white border border-gray-950 shadow-neoBrutalist hover:shadow-neoBrutalistHover"
+    >
+      <!-- Card Image -->
+      <img
+        src="./assets/images/illustration-article.svg"
+        class="w-full h-[200px] rounded-10 object-cover"
+        alt="Illustration representing an HTML & CSS foundations article"
+      />
+
+      <!-- Card Content -->
+      <div class="my-6 flex flex-col items-start justify-center gap-3">
+        <!-- Card Badge -->
+        <span
+          class="inline-block rounded px-3 py-1 bg-yellow border border-yellow font-heading"
+          >Learning</span
+        >
+
+        <!-- Card Date -->
+        <p class="text-preset-3 font-medium text-gray-950">
+          Published 21 Dec 2023
+        </p>
+
+        <!-- Card Title -->
+        <a
+          class="text-preset-1 font-extrabold text-gray-950 group-hover:text-yellow cursor-pointer"
+          href="#"
+        >
+          HTML & CSS foundations
+        </a>
+
+        <!-- Card Description -->
+        <p class="text-preset-2 font-medium text-gray-500">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+      </div>
+
+      <!-- Card Footer -->
+      <div class="flex items-center justify-start gap-3">
+        <img
+          src="./assets/images/image-avatar.webp"
+          alt="Greg Hooper"
+          class="w-8 h-8"
+        />
+        <p class="font-heading">Greg Hooper</p>
+      </div>
+    </article>
+  </body>
+</html>
