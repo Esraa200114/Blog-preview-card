@@ -680,6 +680,10 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.pr-6{
+  padding-right: 1.5rem;
+}
+
 .font-body{
   font-family: Figtree, sans-serif;
 }
@@ -749,10 +753,6 @@ video {
 }
 
 @media (min-width: 768px){
-  .md\:w-2\/5{
-    width: 40%;
-  }
-
   .md\:w-3\/10{
     width: 30%;
   }
@@ -773,25 +773,5 @@ video {
     font-size: 14px;
     line-height: 150%;
     letter-spacing: 0px;
-  }
-}
-
-@media (min-width: 1024px){
-  .lg\:w-6\/25{
-    width: 24%;
-  }
-
-  .lg\:w-3\/10{
-    width: 30%;
-  }
-}
-
-@media (min-width: 1280px){
-  .xl\:w-3\/25{
-    width: 12%;
-  }
-
-  .xl\:w-6\/25{
-    width: 24%;
   }
 }
