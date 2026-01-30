@@ -753,8 +753,8 @@ video {
 }
 
 @media (min-width: 768px){
-  .md\:w-3\/10{
-    width: 30%;
+  .md\:w-8\/25{
+    width: 32%;
   }
 
   .md\:text-preset-0{
