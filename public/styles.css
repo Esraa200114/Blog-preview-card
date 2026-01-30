@@ -680,10 +680,6 @@ video {
   padding-bottom: 0.25rem;
 }
 
-.pr-6{
-  padding-right: 1.5rem;
-}
-
 .font-body{
   font-family: Figtree, sans-serif;
 }
@@ -753,8 +749,8 @@ video {
 }
 
 @media (min-width: 768px){
-  .md\:w-8\/25{
-    width: 32%;
+  .md\:max-w-96{
+    max-width: 24rem;
   }
 
   .md\:text-preset-0{
