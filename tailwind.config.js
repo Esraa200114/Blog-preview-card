@@ -20,8 +20,15 @@ module.exports = {
         extrabold: 800,
       },
       fontSize: {
-        "preset-1": [
+        "preset-0": [
           "24px",
+          {
+            lineHeight: "150%",
+            letterSpacing: "0px",
+          },
+        ],
+        "preset-1": [
+          "20px",
           {
             lineHeight: "150%",
             letterSpacing: "0px",
@@ -36,6 +43,13 @@ module.exports = {
         ],
         "preset-3": [
           "14px",
+          {
+            lineHeight: "150%",
+            letterSpacing: "0px",
+          },
+        ],
+        "preset-4": [
+          "12px",
           {
             lineHeight: "150%",
             letterSpacing: "0px",
