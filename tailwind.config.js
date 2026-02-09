@@ -21,48 +21,48 @@ module.exports = {
       },
       fontSize: {
         "preset-0": [
-          "24px",
+          "1.5rem" /* 24 px */,
           {
             lineHeight: "150%",
-            letterSpacing: "0px",
+            letterSpacing: "0",
           },
         ],
         "preset-1": [
-          "20px",
+          "1.25rem" /* 20 px */,
           {
             lineHeight: "150%",
-            letterSpacing: "0px",
+            letterSpacing: "0",
           },
         ],
         "preset-2": [
-          "16px",
+          "1rem" /* 16 px */,
           {
             lineHeight: "150%",
-            letterSpacing: "0px",
+            letterSpacing: "0",
           },
         ],
         "preset-3": [
-          "14px",
+          "0.875rem" /* 14 px */,
           {
             lineHeight: "150%",
-            letterSpacing: "0px",
+            letterSpacing: "0",
           },
         ],
         "preset-4": [
-          "12px",
+          "0.75rem" /* 12 px */,
           {
             lineHeight: "150%",
-            letterSpacing: "0px",
+            letterSpacing: "0",
           },
         ],
       },
       boxShadow: {
-        neoBrutalist: "8px 8px 0 #111111",
-        neoBrutalistHover: "16px 16px 0 #111111",
+        neoBrutalist: "0.5rem 0.5rem 0 #111111",
+        neoBrutalistHover: "1rem 1rem 0 #111111",
       },
       borderRadius: {
-        10: "10px",
-        20: "20px",
+        10: "0.625rem" /* 10 px */,
+        20: "1.25rem" /* 20 px */,
       },
     },
   },
