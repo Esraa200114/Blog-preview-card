@@ -577,8 +577,8 @@ video {
   height: 2rem;
 }
 
-.h-\[200px\]{
-  height: 200px;
+.h-\[12\.5rem\]{
+  height: 12.5rem;
 }
 
 .h-full{
@@ -630,11 +630,11 @@ video {
 }
 
 .rounded-10{
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 
 .rounded-20{
-  border-radius: 20px;
+  border-radius: 1.25rem;
 }
 
 .border{
@@ -703,23 +703,23 @@ video {
 }
 
 .shadow-neoBrutalist{
-  --tw-shadow: 8px 8px 0 #111111;
-  --tw-shadow-colored: 8px 8px 0 var(--tw-shadow-color);
+  --tw-shadow: 0.5rem 0.5rem 0 #111111;
+  --tw-shadow-colored: 0.5rem 0.5rem 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .font-heading{
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 150%;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   font-weight: 800;
   --tw-text-opacity: 1;
   color: rgb(17 17 17 / var(--tw-text-opacity, 1));
 }
 
 .hover\:shadow-neoBrutalistHover:hover{
-  --tw-shadow: 16px 16px 0 #111111;
-  --tw-shadow-colored: 16px 16px 0 var(--tw-shadow-color);
+  --tw-shadow: 1rem 1rem 0 #111111;
+  --tw-shadow-colored: 1rem 1rem 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -730,21 +730,21 @@ video {
 
 @media (min-width: 640px){
   .sm\:text-preset-1{
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 150%;
-    letter-spacing: 0px;
+    letter-spacing: 0;
   }
 
   .sm\:text-preset-3{
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 150%;
-    letter-spacing: 0px;
+    letter-spacing: 0;
   }
 
   .sm\:text-preset-4{
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 150%;
-    letter-spacing: 0px;
+    letter-spacing: 0;
   }
 }
 
@@ -754,20 +754,20 @@ video {
   }
 
   .md\:text-preset-0{
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 150%;
-    letter-spacing: 0px;
+    letter-spacing: 0;
   }
 
   .md\:text-preset-2{
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 150%;
-    letter-spacing: 0px;
+    letter-spacing: 0;
   }
 
   .md\:text-preset-3{
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 150%;
-    letter-spacing: 0px;
+    letter-spacing: 0;
   }
 }
